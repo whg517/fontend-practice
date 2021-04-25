@@ -1,0 +1,36 @@
+{
+  "name": "general",
+  "version": "1.0.0",
+  "description": "通用的 Web 开发项目模板。",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "product": "webpack --mode production",
+    "start": "webpack serve --open",
+    "tsc-init": "tsc --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whg517/fontend-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whg517/fontend-practice/issues"
+  },
+  "homepage": "https://github.com/whg517/fontend-practice#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^3.11.3",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
